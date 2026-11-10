@@ -49,12 +49,20 @@ def audit_pond(path: Path):
 
     ts_info = {"available": False, "valid": 0, "duplicates": None,
                "out_of_order": None, "median_interval_s": None}
-    if "created_at" in raw.columns:
-        # Parse wall-clock time only: original CET/CEST abbreviations are not
-        # enough to infer the true recording timezone reliably.
-        raw_ts = raw["created_at"].astype(str).str.replace(
-            r"\s+(?:CET|CEST|UTC)$", "", regex=True)
-        parsed = pd.to_datetime(raw_ts, errors="coerce")
+    # Some CSVs use created_at; IoTPond8 stores ISO timestamps in its
+    # unnamed first column. Use the first field only when it resembles
+    # YYYY-MM-DD. Report pond-local wall-clock times without inferring UTC.
+    ts_col = "created_at" if "created_at" in raw.columns else None
+    if ts_col is None and len(raw):
+        first = str(raw.iloc[0, 0])
+        if len(first) >= 10 and first[4:5] == "-" and first[7:8] == "-":
+            ts_col = raw.columns[0]
+    if ts_col is not None:
+        raw_ts = (raw[ts_col].astype(str).str.slice(0, 19)
+                  .str.replace("T", " ", regex=False))
+        parsed = pd.to_datetime(raw_ts,
+                                format="%Y-%m-%d %H:%M:%S",
+                                errors="coerce")
         delta = parsed.diff().dt.total_seconds()
         positive = delta[delta > 0]
         ts_info = {
