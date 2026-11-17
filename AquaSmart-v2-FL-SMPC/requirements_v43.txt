@@ -1,0 +1,2 @@
+# New V4.3 dependency. Keep the project's existing fl_smpc/requirements.txt.
+cryptography>=44,<47
