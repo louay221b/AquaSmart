@@ -58,17 +58,38 @@ def audit_pond(path: Path):
         if len(first) >= 10 and first[4:5] == "-" and first[7:8] == "-":
             ts_col = raw.columns[0]
     if ts_col is not None:
-        raw_ts = (raw[ts_col].astype(str).str.slice(0, 19)
-                  .str.replace("T", " ", regex=False))
-        parsed = pd.to_datetime(raw_ts,
-                                format="%Y-%m-%d %H:%M:%S",
-                                errors="coerce")
-        delta = parsed.diff().dt.total_seconds()
+        raw_ts = raw[ts_col].astype("string").str.strip()
+
+        # Date-only values have no measurable time-of-day.
+        date_only = raw_ts.str.fullmatch(
+            r"(?:\d{1,2}/\d{1,2}/\d{4}|\d{4}-\d{2}-\d{2})"
+        ).fillna(False)
+
+        # Audit in original wall-clock time, without converting to UTC.
+        tz_suffix_pattern = r"(?:\s*(?:CET|CEST|UTC|GMT|Z|[+-]\d{2}:?\d{2}))+$"
+        has_timezone = raw_ts.str.contains(
+            tz_suffix_pattern, regex=True, case=False, na=False
+        )
+        normalized = (
+            raw_ts
+            .str.replace(tz_suffix_pattern, "", regex=True, case=False)
+            .str.replace("T", " ", regex=False)
+        )
+        parsed = pd.to_datetime(
+            normalized, format="mixed", dayfirst=True, errors="coerce"
+        )
+        with_time = parsed.where(~date_only)
+        delta = with_time.diff().dt.total_seconds()
         positive = delta[delta > 0]
         ts_info = {
             "available": True,
             "valid": int(parsed.notna().sum()),
-            "duplicates": int(parsed[parsed.notna()].duplicated().sum()),
+            "date_only": int((date_only & parsed.notna()).sum()),
+            "with_time": int(with_time.notna().sum()),
+            "unique_days": int(parsed.dt.normalize().nunique()),
+            "timezone_suffix_rows": int(has_timezone.sum()),
+            "timezone_handling": "wall_clock_only_not_utc_normalized",
+            "duplicates": int(with_time.dropna().duplicated().sum()),
             "out_of_order": int((delta < 0).sum()),
             "median_interval_s": finite_or_none(positive.median()),
         }
