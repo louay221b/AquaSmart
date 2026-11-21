@@ -1,0 +1,21 @@
+# SecFed local artifacts — intentionally excluded from Git
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dataset/
+bdg2_dataset/
+synchronized_results/
+bdg2_results/
+crypto_pilot_results/
+crypto_full_results/
+crypto_full_results_repeat/
+crypto_dropout_results/
+cost_results/
+security_results/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*results*.zip

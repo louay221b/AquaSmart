@@ -1,0 +1,3512 @@
+{
+  "rows": {
+    "mode": "rows",
+    "selection": "macro",
+    "cap": 3000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "min_inner_blocks": 5,
+    "cleaning": {
+      "IoTpond1": {
+        "raw_rows": 83126,
+        "clean_rows": 82966,
+        "blocks": 72,
+        "weight_runs": 72,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "102187a176eb642718632221cbb4cf880dd10fa4b6ca23c2e75bb560cfd4a8a6"
+      },
+      "IoTPond10": {
+        "raw_rows": 620,
+        "clean_rows": 581,
+        "blocks": 15,
+        "weight_runs": 15,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "66c1fb6c5c95654b5862e05e4126cc440b8dc772ec8658d6e466ab36068afd15"
+      },
+      "IoTPond11": {
+        "raw_rows": 3165,
+        "clean_rows": 2616,
+        "blocks": 9,
+        "weight_runs": 13,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "7ecc7d213e9aaa4bf95e6aec504b592d8d7901f01e50d2e44476967700f10c41"
+      },
+      "IoTPond12": {
+        "raw_rows": 3590,
+        "clean_rows": 3589,
+        "blocks": 9,
+        "weight_runs": 10,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "f7bf7bcf03e7bb5d4c81cfc2890be5b0b358b894664b9fab762229df7e3ba163"
+      },
+      "IoTPond2": {
+        "raw_rows": 172249,
+        "clean_rows": 95945,
+        "blocks": 81,
+        "weight_runs": 81,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "be6b8d9113d2c32d82a6fe8fa51538bcd1085a1034681e8b7f2d67275436eb63"
+      },
+      "IoTPond3": {
+        "raw_rows": 169185,
+        "clean_rows": 160698,
+        "blocks": 75,
+        "weight_runs": 75,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "a1980e80250bfd610274acb3e281ebf93ba2b1e5449c61982bf97d262f8c01be"
+      },
+      "IoTPond4": {
+        "raw_rows": 89844,
+        "clean_rows": 89137,
+        "blocks": 67,
+        "weight_runs": 67,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "ff3822f2e28b191e126d9b92fc6ea6a7be36b1fc5924ac97af1a83f7ec598634"
+      },
+      "IoTPond6": {
+        "raw_rows": 91050,
+        "clean_rows": 80667,
+        "blocks": 81,
+        "weight_runs": 81,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "5da60c205dc569f147ec9f20b285c869884171741316a3b9af052850b68193ed"
+      },
+      "IoTPond7": {
+        "raw_rows": 279612,
+        "clean_rows": 64626,
+        "blocks": 54,
+        "weight_runs": 54,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "2843c355ea53f5ecfb022279fd4689552d9576bbcff7553dbb8652757bb9f1e3"
+      },
+      "IoTPond8": {
+        "raw_rows": 70744,
+        "clean_rows": 41413,
+        "blocks": 37,
+        "weight_runs": 38,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "1260a962f979876a1d451a55208bcd9e7fef077e3d13ccfee98863f6afb128a7"
+      },
+      "IoTPond9": {
+        "raw_rows": 151785,
+        "clean_rows": 150406,
+        "blocks": 99,
+        "weight_runs": 99,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "9e3aea85c8f2b68504548e3ef273a8cb032a2817118d82da4a6b5758e615bf54"
+      }
+    },
+    "counts": {
+      "IoTPond10": {
+        "inner_train_blocks": 10,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 10,
+        "inner_val_runs": 1,
+        "outer_train_runs": 11,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-10-06 12:51:44",
+        "inner_val_start": "2021-10-10 00:00:00",
+        "inner_val_end": "2021-10-10 00:00:00",
+        "outer_val_start": "2021-10-24 00:00:00"
+      },
+      "IoTPond11": {
+        "inner_train_blocks": 4,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 5,
+        "inner_val_runs": 2,
+        "outer_train_runs": 7,
+        "outer_val_runs": 2,
+        "inner_train_end": "2021-10-24 00:00:00",
+        "inner_val_start": "2021-10-25 00:00:00",
+        "inner_val_end": "2021-11-07 00:00:00",
+        "outer_val_start": "2021-11-08 00:00:00"
+      },
+      "IoTPond12": {
+        "inner_train_blocks": 6,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 6,
+        "inner_val_runs": 2,
+        "outer_train_runs": 8,
+        "outer_val_runs": 1,
+        "inner_train_end": "2021-12-05 00:00:00",
+        "inner_val_start": "2021-12-19 00:00:00",
+        "inner_val_end": "2021-12-19 00:00:00",
+        "outer_val_start": "2022-01-02 00:00:00"
+      },
+      "IoTPond2": {
+        "inner_train_blocks": 22,
+        "inner_val_blocks": 18,
+        "inner_train_runs": 22,
+        "inner_val_runs": 18,
+        "outer_train_runs": 40,
+        "outer_val_runs": 11,
+        "inner_train_end": "2021-07-12 23:59:00",
+        "inner_val_start": "2021-07-13 00:00:18",
+        "inner_val_end": "2021-07-30 23:59:12",
+        "outer_val_start": "2021-07-31 00:00:46"
+      },
+      "IoTPond3": {
+        "inner_train_blocks": 26,
+        "inner_val_blocks": 12,
+        "inner_train_runs": 26,
+        "inner_val_runs": 12,
+        "outer_train_runs": 38,
+        "outer_val_runs": 13,
+        "inner_train_end": "2021-07-17 23:59:46",
+        "inner_val_start": "2021-07-18 00:00:06",
+        "inner_val_end": "2021-07-29 23:59:58",
+        "outer_val_start": "2021-07-30 00:00:17"
+      },
+      "IoTPond4": {
+        "inner_train_blocks": 30,
+        "inner_val_blocks": 5,
+        "inner_train_runs": 30,
+        "inner_val_runs": 5,
+        "outer_train_runs": 35,
+        "outer_val_runs": 10,
+        "inner_train_end": "2021-07-23 23:59:28",
+        "inner_val_start": "2021-07-24 00:00:24",
+        "inner_val_end": "2021-07-28 17:42:45",
+        "outer_val_start": "2021-07-30 09:48:21"
+      },
+      "IoTPond6": {
+        "inner_train_blocks": 22,
+        "inner_val_blocks": 9,
+        "inner_train_runs": 22,
+        "inner_val_runs": 9,
+        "outer_train_runs": 31,
+        "outer_val_runs": 25,
+        "inner_train_end": "2021-07-13 23:59:55",
+        "inner_val_start": "2021-07-14 00:00:34",
+        "inner_val_end": "2021-07-22 23:59:31",
+        "outer_val_start": "2021-07-23 00:01:05"
+      },
+      "IoTPond7": {
+        "inner_train_blocks": 35,
+        "inner_val_blocks": 6,
+        "inner_train_runs": 35,
+        "inner_val_runs": 6,
+        "outer_train_runs": 41,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-08-02 23:59:42",
+        "inner_val_start": "2021-08-03 00:00:02",
+        "inner_val_end": "2021-08-08 16:20:56",
+        "outer_val_start": "2021-08-09 11:07:02"
+      },
+      "IoTPond8": {
+        "inner_train_blocks": 19,
+        "inner_val_blocks": 2,
+        "inner_train_runs": 20,
+        "inner_val_runs": 2,
+        "outer_train_runs": 22,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-07-25 00:00:00",
+        "inner_val_start": "2021-07-26 00:00:00",
+        "inner_val_end": "2021-07-27 00:00:00",
+        "outer_val_start": "2021-07-28 00:00:00"
+      },
+      "IoTPond9": {
+        "inner_train_blocks": 32,
+        "inner_val_blocks": 40,
+        "inner_train_runs": 32,
+        "inner_val_runs": 40,
+        "outer_train_runs": 72,
+        "outer_val_runs": 13,
+        "inner_train_end": "2021-07-22 23:59:52",
+        "inner_val_start": "2021-07-23 00:00:12",
+        "inner_val_end": "2021-09-16 23:59:50",
+        "outer_val_start": "2021-09-17 00:00:10"
+      },
+      "IoTpond1": {
+        "inner_train_blocks": 20,
+        "inner_val_blocks": 14,
+        "inner_train_runs": 20,
+        "inner_val_runs": 14,
+        "outer_train_runs": 34,
+        "outer_val_runs": 9,
+        "inner_train_end": "2021-07-17 23:58:19",
+        "inner_val_start": "2021-07-18 00:03:04",
+        "inner_val_end": "2021-07-31 23:59:47",
+        "outer_val_start": "2021-08-01 00:00:06"
+      }
+    },
+    "runs": [
+      {
+        "seed": 0,
+        "global_config": {
+          "alpha": 0.01,
+          "lr": 0.1,
+          "epochs": 5,
+          "rounds": 80
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            1.0,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.2120369347108768,
+            "macro": 1.4412209790277553,
+            "r2": -1.8106457201343291,
+            "per_pond": {
+              "IoTPond10": 2.8340606571005025,
+              "IoTPond11": 2.896585516818403,
+              "IoTPond12": 2.872158486215101,
+              "IoTPond2": 0.4711203194614525,
+              "IoTPond3": 0.2801565546162477,
+              "IoTPond4": 1.024128907401934,
+              "IoTPond6": 0.900155077793098,
+              "IoTPond7": 1.1837452324044664,
+              "IoTPond8": 0.49438703661991795,
+              "IoTPond9": 2.235813157682194,
+              "IoTpond1": 0.6611198231919919
+            }
+          },
+          "local_mean": {
+            "micro": 1.5142927046359234,
+            "macro": 1.2709452642866783,
+            "r2": -3.3872669233511976,
+            "per_pond": {
+              "IoTPond10": 2.182108533149222,
+              "IoTPond11": 0.8533896067223081,
+              "IoTPond12": 0.2500976589524493,
+              "IoTPond2": 1.2651529900662735,
+              "IoTPond3": 0.921102831842752,
+              "IoTPond4": 1.472229284135443,
+              "IoTPond6": 1.501761137545495,
+              "IoTPond7": 0.7841539715875221,
+              "IoTPond8": 1.0377160047688339,
+              "IoTPond9": 2.4148911699089455,
+              "IoTpond1": 1.297794718474216
+            }
+          },
+          "local_ridge_common": {
+            "micro": 0.765582355042221,
+            "macro": 0.9301249030600637,
+            "r2": -0.12139400105805676,
+            "per_pond": {
+              "IoTPond10": 2.4026464379182033,
+              "IoTPond11": 1.548617718642538,
+              "IoTPond12": 0.4088693530709845,
+              "IoTPond2": 0.718558645476903,
+              "IoTPond3": 0.622112770905682,
+              "IoTPond4": 1.095009109343851,
+              "IoTPond6": 1.1310999370182078,
+              "IoTPond7": 0.5708934679204412,
+              "IoTPond8": 0.40825021307447473,
+              "IoTPond9": 0.6368972920984567,
+              "IoTpond1": 0.6884189881909585
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 0.7039343750263988,
+            "macro": 0.8484839906611406,
+            "r2": 0.05193362282995739,
+            "per_pond": {
+              "IoTPond10": 2.4026464379182033,
+              "IoTPond11": 1.548617718642538,
+              "IoTPond12": 0.4088693530709845,
+              "IoTPond2": 0.21262644272483605,
+              "IoTPond3": 0.6063024747945829,
+              "IoTPond4": 0.8017416038986118,
+              "IoTPond6": 1.3724425025498117,
+              "IoTPond7": 0.7837854716475235,
+              "IoTPond8": 0.40825021307447473,
+              "IoTPond9": 0.6368972920984567,
+              "IoTpond1": 0.1511443868525211
+            }
+          },
+          "central_ridge": {
+            "micro": 0.9694096557560813,
+            "macro": 1.0828302774604739,
+            "r2": -0.797997485792314,
+            "per_pond": {
+              "IoTPond10": 1.548432617972177,
+              "IoTPond11": 2.6095656474929165,
+              "IoTPond12": 1.5074032368174135,
+              "IoTPond2": 0.3614585242070895,
+              "IoTPond3": 0.5014948672227426,
+              "IoTPond4": 1.1148498729942349,
+              "IoTPond6": 0.49708573785871174,
+              "IoTPond7": 1.0123110558319839,
+              "IoTPond8": 0.5792476501853409,
+              "IoTPond9": 1.6546550889157798,
+              "IoTpond1": 0.5246287525668235
+            }
+          },
+          "fedavg": {
+            "micro": 0.9530067515002281,
+            "macro": 1.1523641445290205,
+            "r2": -0.7376661957114983,
+            "per_pond": {
+              "IoTPond10": 2.3714021211756537,
+              "IoTPond11": 2.7963908611045314,
+              "IoTPond12": 2.006427252350222,
+              "IoTPond2": 0.25004152403517216,
+              "IoTPond3": 0.16702178880473062,
+              "IoTPond4": 1.0388505787383553,
+              "IoTPond6": 0.5501631352526293,
+              "IoTPond7": 0.93348879160033,
+              "IoTPond8": 0.3919807645787759,
+              "IoTPond9": 1.74270373968005,
+              "IoTpond1": 0.4275350324987757
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 0.9530067515002222,
+            "macro": 1.152364144529015,
+            "r2": -0.7376661957114767,
+            "per_pond": {
+              "IoTPond10": 2.3714021211756426,
+              "IoTPond11": 2.7963908611045483,
+              "IoTPond12": 2.006427252350213,
+              "IoTPond2": 0.25004152403515195,
+              "IoTPond3": 0.16702178880473367,
+              "IoTPond4": 1.0388505787383848,
+              "IoTPond6": 0.550163135252606,
+              "IoTPond7": 0.9334887916003064,
+              "IoTPond8": 0.39198076457876485,
+              "IoTPond9": 1.7427037396800351,
+              "IoTpond1": 0.42753503249877506
+            }
+          },
+          "proximal_common": {
+            "micro": 0.765582355042221,
+            "macro": 0.9301249030600637,
+            "r2": -0.12139400105805676,
+            "per_pond": {
+              "IoTPond10": 2.4026464379182033,
+              "IoTPond11": 1.548617718642538,
+              "IoTPond12": 0.4088693530709845,
+              "IoTPond2": 0.718558645476903,
+              "IoTPond3": 0.622112770905682,
+              "IoTPond4": 1.095009109343851,
+              "IoTPond6": 1.1310999370182078,
+              "IoTPond7": 0.5708934679204412,
+              "IoTPond8": 0.40825021307447473,
+              "IoTPond9": 0.6368972920984567,
+              "IoTpond1": 0.6884189881909585
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.5205577859851405,
+            "macro": 0.7337967130895918,
+            "r2": 0.48154353906504943,
+            "per_pond": {
+              "IoTPond10": 2.4026464379182033,
+              "IoTPond11": 1.548617718642538,
+              "IoTPond12": 0.4088693530709845,
+              "IoTPond2": 0.21262644272483605,
+              "IoTPond3": 0.16702178880473062,
+              "IoTPond4": 0.8017416038986118,
+              "IoTPond6": 0.5501631352526293,
+              "IoTPond7": 0.7837854716475235,
+              "IoTPond8": 0.40825021307447473,
+              "IoTPond9": 0.6368972920984567,
+              "IoTpond1": 0.1511443868525211
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.5205577859851381,
+            "macro": 0.73379671308959,
+            "r2": 0.48154353906505376,
+            "per_pond": {
+              "IoTPond10": 2.4026464379182033,
+              "IoTPond11": 1.548617718642538,
+              "IoTPond12": 0.4088693530709845,
+              "IoTPond2": 0.21262644272483605,
+              "IoTPond3": 0.16702178880473367,
+              "IoTPond4": 0.8017416038986118,
+              "IoTPond6": 0.550163135252606,
+              "IoTPond7": 0.7837854716475235,
+              "IoTPond8": 0.40825021307447473,
+              "IoTPond9": 0.6368972920984567,
+              "IoTpond1": 0.1511443868525211
+            }
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 5,
+          "rounds": 40
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            1.0,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.2128016858292148,
+            "macro": 1.4421601983570893,
+            "r2": -1.8141936690568312,
+            "per_pond": {
+              "IoTPond10": 2.835011350127722,
+              "IoTPond11": 2.8975368392139575,
+              "IoTPond12": 2.8731111306396078,
+              "IoTPond2": 0.47205483461094816,
+              "IoTPond3": 0.28109463343752455,
+              "IoTPond4": 1.0250640009268703,
+              "IoTPond6": 0.9010170221128234,
+              "IoTPond7": 1.1846971839924516,
+              "IoTPond8": 0.4953381392147991,
+              "IoTPond9": 2.23676487528127,
+              "IoTpond1": 0.6620721723700062
+            }
+          },
+          "local_mean": {
+            "micro": 1.5165666816255612,
+            "macro": 1.271786327515509,
+            "r2": -3.4004533235350323,
+            "per_pond": {
+              "IoTPond10": 2.182108533149222,
+              "IoTPond11": 0.8533896067223081,
+              "IoTPond12": 0.2500976589524493,
+              "IoTPond2": 1.2845454202413242,
+              "IoTPond3": 0.9124717531878463,
+              "IoTPond4": 1.4408369160451755,
+              "IoTPond6": 1.5049195966083797,
+              "IoTPond7": 0.787581420644326,
+              "IoTPond8": 1.045256912836036,
+              "IoTPond9": 2.42557095525501,
+              "IoTpond1": 1.302870829028522
+            }
+          },
+          "local_ridge_common": {
+            "micro": 0.7625979194874901,
+            "macro": 0.9259290478466263,
+            "r2": -0.11266808174941123,
+            "per_pond": {
+              "IoTPond10": 2.402468421747648,
+              "IoTPond11": 1.5486284293875123,
+              "IoTPond12": 0.4088174199648932,
+              "IoTPond2": 0.7198395493532658,
+              "IoTPond3": 0.6019515367670403,
+              "IoTPond4": 1.1044461006713913,
+              "IoTPond6": 1.1346780985118905,
+              "IoTPond7": 0.5252768489436797,
+              "IoTPond8": 0.41605040420019684,
+              "IoTPond9": 0.6478122308402016,
+              "IoTpond1": 0.6752504859251689
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 0.713196113475092,
+            "macro": 0.8556586425911792,
+            "r2": 0.026821885974083415,
+            "per_pond": {
+              "IoTPond10": 2.402468421747648,
+              "IoTPond11": 1.5486284293875123,
+              "IoTPond12": 0.4088174199648932,
+              "IoTPond2": 0.2136128672258052,
+              "IoTPond3": 0.5728835068634465,
+              "IoTPond4": 0.8866447343987613,
+              "IoTPond6": 1.3752648832804817,
+              "IoTPond7": 0.7870186742846308,
+              "IoTPond8": 0.41605040420019684,
+              "IoTPond9": 0.6478122308402016,
+              "IoTpond1": 0.15304349630939135
+            }
+          },
+          "central_ridge": {
+            "micro": 0.9722503601395488,
+            "macro": 1.0835819950560426,
+            "r2": -0.8085504296233115,
+            "per_pond": {
+              "IoTPond10": 1.5432001496448107,
+              "IoTPond11": 2.6036279654558383,
+              "IoTPond12": 1.5130133971426427,
+              "IoTPond2": 0.3674566595425852,
+              "IoTPond3": 0.48990209582421895,
+              "IoTPond4": 1.1140899618451898,
+              "IoTPond6": 0.4976253617482265,
+              "IoTPond7": 1.015531529754537,
+              "IoTPond8": 0.5794769681327365,
+              "IoTPond9": 1.6639574612481915,
+              "IoTpond1": 0.531520395277491
+            }
+          },
+          "fedavg": {
+            "micro": 1.0436227290350488,
+            "macro": 1.1820849678131453,
+            "r2": -1.0838260160895783,
+            "per_pond": {
+              "IoTPond10": 2.524931379586145,
+              "IoTPond11": 2.803338171391455,
+              "IoTPond12": 1.952690707358259,
+              "IoTPond2": 0.25393535217926805,
+              "IoTPond3": 0.19111457156935832,
+              "IoTPond4": 1.0295302596104723,
+              "IoTPond6": 0.5833161030153606,
+              "IoTPond7": 0.8998719945549887,
+              "IoTPond8": 0.34639952395690815,
+              "IoTPond9": 1.995844632411542,
+              "IoTpond1": 0.4219619503108431
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.0436227290351174,
+            "macro": 1.1820849678131837,
+            "r2": -1.0838260160898523,
+            "per_pond": {
+              "IoTPond10": 2.5249313795862727,
+              "IoTPond11": 2.8033381713914904,
+              "IoTPond12": 1.9526907073582376,
+              "IoTPond2": 0.25393535217926727,
+              "IoTPond3": 0.1911145715693785,
+              "IoTPond4": 1.0295302596105316,
+              "IoTPond6": 0.5833161030153599,
+              "IoTPond7": 0.8998719945549902,
+              "IoTPond8": 0.34639952395693335,
+              "IoTPond9": 1.995844632411701,
+              "IoTpond1": 0.4219619503108596
+            }
+          },
+          "proximal_common": {
+            "micro": 0.7625979194874901,
+            "macro": 0.9259290478466263,
+            "r2": -0.11266808174941123,
+            "per_pond": {
+              "IoTPond10": 2.402468421747648,
+              "IoTPond11": 1.5486284293875123,
+              "IoTPond12": 0.4088174199648932,
+              "IoTPond2": 0.7198395493532658,
+              "IoTPond3": 0.6019515367670403,
+              "IoTPond4": 1.1044461006713913,
+              "IoTPond6": 1.1346780985118905,
+              "IoTPond7": 0.5252768489436797,
+              "IoTPond8": 0.41605040420019684,
+              "IoTPond9": 0.6478122308402016,
+              "IoTpond1": 0.6752504859251689
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.5446647037889214,
+            "macro": 0.7489570320857964,
+            "r2": 0.4324124476441855,
+            "per_pond": {
+              "IoTPond10": 2.402468421747648,
+              "IoTPond11": 1.5486284293875123,
+              "IoTPond12": 0.4088174199648932,
+              "IoTPond2": 0.2136128672258052,
+              "IoTPond3": 0.19111457156935832,
+              "IoTPond4": 0.8866447343987613,
+              "IoTPond6": 0.5833161030153606,
+              "IoTPond7": 0.7870186742846308,
+              "IoTPond8": 0.41605040420019684,
+              "IoTPond9": 0.6478122308402016,
+              "IoTpond1": 0.15304349630939135
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.5446647037889227,
+            "macro": 0.7489570320857982,
+            "r2": 0.43241244764418274,
+            "per_pond": {
+              "IoTPond10": 2.402468421747648,
+              "IoTPond11": 1.5486284293875123,
+              "IoTPond12": 0.4088174199648932,
+              "IoTPond2": 0.2136128672258052,
+              "IoTPond3": 0.1911145715693785,
+              "IoTPond4": 0.8866447343987613,
+              "IoTPond6": 0.5833161030153599,
+              "IoTPond7": 0.7870186742846308,
+              "IoTPond8": 0.41605040420019684,
+              "IoTPond9": 0.6478122308402016,
+              "IoTpond1": 0.15304349630939135
+            }
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "global_config": {
+          "alpha": 0.001,
+          "lr": 0.1,
+          "epochs": 5,
+          "rounds": 40
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            1.0,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.2116604372036124,
+            "macro": 1.4407584815002585,
+            "r2": -1.808899838104586,
+            "per_pond": {
+              "IoTPond10": 2.8335924966537807,
+              "IoTPond11": 2.8961170462821557,
+              "IoTPond12": 2.8716893643372368,
+              "IoTPond2": 0.4706601519071629,
+              "IoTPond3": 0.27969464163154734,
+              "IoTPond4": 1.0236684402129361,
+              "IoTPond6": 0.899730687652208,
+              "IoTPond7": 1.1832764521180226,
+              "IoTPond8": 0.49391867618711566,
+              "IoTPond9": 2.2353444925020094,
+              "IoTpond1": 0.660650847018669
+            }
+          },
+          "local_mean": {
+            "micro": 1.506592430726186,
+            "macro": 1.2704893899240586,
+            "r2": -3.342761310691661,
+            "per_pond": {
+              "IoTPond10": 2.182108533149222,
+              "IoTPond11": 0.8533896067223081,
+              "IoTPond12": 0.2500976589524493,
+              "IoTPond2": 1.2789655329581007,
+              "IoTPond3": 0.8995366891809298,
+              "IoTPond4": 1.45358122683168,
+              "IoTPond6": 1.5220682104169128,
+              "IoTPond7": 0.7888447968855984,
+              "IoTPond8": 1.0659847433748706,
+              "IoTPond9": 2.391490553124623,
+              "IoTpond1": 1.2893157375679478
+            }
+          },
+          "local_ridge_common": {
+            "micro": 0.7683227813847221,
+            "macro": 0.9309186533441863,
+            "r2": -0.129436500381247,
+            "per_pond": {
+              "IoTPond10": 2.4026693330087108,
+              "IoTPond11": 1.5484233735362465,
+              "IoTPond12": 0.40842352392955344,
+              "IoTPond2": 0.7365883407884788,
+              "IoTPond3": 0.6259956278411293,
+              "IoTPond4": 1.0832270533953148,
+              "IoTPond6": 1.1105264638409833,
+              "IoTPond7": 0.5335330740474891,
+              "IoTPond8": 0.4208575710738032,
+              "IoTPond9": 0.6716331722059207,
+              "IoTpond1": 0.69822765311842
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 0.6993243655109106,
+            "macro": 0.8442598439458077,
+            "r2": 0.06431058249342558,
+            "per_pond": {
+              "IoTPond10": 2.4026693330087108,
+              "IoTPond11": 1.5484233735362465,
+              "IoTPond12": 0.40842352392955344,
+              "IoTPond2": 0.21402382924113003,
+              "IoTPond3": 0.6057034272867704,
+              "IoTPond4": 0.691214057031852,
+              "IoTPond6": 1.381008355380469,
+              "IoTPond7": 0.7883412990364647,
+              "IoTPond8": 0.4208575710738032,
+              "IoTPond9": 0.6716331722059207,
+              "IoTpond1": 0.15456034167296342
+            }
+          },
+          "central_ridge": {
+            "micro": 0.9479384195174301,
+            "macro": 1.083010780929613,
+            "r2": -0.719232643114152,
+            "per_pond": {
+              "IoTPond10": 1.559647048224935,
+              "IoTPond11": 2.6137127328127963,
+              "IoTPond12": 1.5278164906295566,
+              "IoTPond2": 0.37089501483484993,
+              "IoTPond3": 0.5009161376973547,
+              "IoTPond4": 1.1187890464561125,
+              "IoTPond6": 0.5033680676794522,
+              "IoTPond7": 1.019229608162998,
+              "IoTPond8": 0.5812337948637545,
+              "IoTPond9": 1.5815210599949157,
+              "IoTpond1": 0.5359895888690158
+            }
+          },
+          "fedavg": {
+            "micro": 1.0289178497481004,
+            "macro": 1.1675017955108344,
+            "r2": -1.0255165716016572,
+            "per_pond": {
+              "IoTPond10": 2.4307314539883005,
+              "IoTPond11": 2.767195064121248,
+              "IoTPond12": 1.9450058376139217,
+              "IoTPond2": 0.2631353676250357,
+              "IoTPond3": 0.16172534299371846,
+              "IoTPond4": 1.0298526065781302,
+              "IoTPond6": 0.5814807241258084,
+              "IoTPond7": 0.908326099533205,
+              "IoTPond8": 0.3660902393304028,
+              "IoTPond9": 1.955520128759594,
+              "IoTpond1": 0.43345688594981246
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.028917849748075,
+            "macro": 1.167501795510825,
+            "r2": -1.0255165716015582,
+            "per_pond": {
+              "IoTPond10": 2.4307314539883116,
+              "IoTPond11": 2.7671950641212337,
+              "IoTPond12": 1.945005837613885,
+              "IoTPond2": 0.2631353676250206,
+              "IoTPond3": 0.16172534299373256,
+              "IoTPond4": 1.0298526065781357,
+              "IoTPond6": 0.5814807241257837,
+              "IoTPond7": 0.9083260995332145,
+              "IoTPond8": 0.3660902393304298,
+              "IoTPond9": 1.9555201287595274,
+              "IoTpond1": 0.4334568859498008
+            }
+          },
+          "proximal_common": {
+            "micro": 0.7683227813847221,
+            "macro": 0.9309186533441863,
+            "r2": -0.129436500381247,
+            "per_pond": {
+              "IoTPond10": 2.4026693330087108,
+              "IoTPond11": 1.5484233735362465,
+              "IoTPond12": 0.40842352392955344,
+              "IoTPond2": 0.7365883407884788,
+              "IoTPond3": 0.6259956278411293,
+              "IoTPond4": 1.0832270533953148,
+              "IoTPond6": 1.1105264638409833,
+              "IoTPond7": 0.5335330740474891,
+              "IoTPond8": 0.4208575710738032,
+              "IoTPond9": 0.6716331722059207,
+              "IoTpond1": 0.69822765311842
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.5152506746330825,
+            "macro": 0.7312138698051065,
+            "r2": 0.4920610277091013,
+            "per_pond": {
+              "IoTPond10": 2.4026693330087108,
+              "IoTPond11": 1.5484233735362465,
+              "IoTPond12": 0.40842352392955344,
+              "IoTPond2": 0.21402382924113003,
+              "IoTPond3": 0.16172534299371846,
+              "IoTPond4": 0.691214057031852,
+              "IoTPond6": 0.5814807241258084,
+              "IoTPond7": 0.7883412990364647,
+              "IoTPond8": 0.4208575710738032,
+              "IoTPond9": 0.6716331722059207,
+              "IoTpond1": 0.15456034167296342
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.5152506746330806,
+            "macro": 0.7312138698051055,
+            "r2": 0.492061027709105,
+            "per_pond": {
+              "IoTPond10": 2.4026693330087108,
+              "IoTPond11": 1.5484233735362465,
+              "IoTPond12": 0.40842352392955344,
+              "IoTPond2": 0.21402382924113003,
+              "IoTPond3": 0.16172534299373256,
+              "IoTPond4": 0.691214057031852,
+              "IoTPond6": 0.5814807241257837,
+              "IoTPond7": 0.7883412990364647,
+              "IoTPond8": 0.4208575710738032,
+              "IoTPond9": 0.6716331722059207,
+              "IoTpond1": 0.15456034167296342
+            }
+          }
+        }
+      },
+      {
+        "seed": 3,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 5,
+          "rounds": 40
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            1.0,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.2168389741010541,
+            "macro": 1.4471137456578267,
+            "r2": -1.83296115956046,
+            "per_pond": {
+              "IoTPond10": 2.8400248348743724,
+              "IoTPond11": 2.9025536356354737,
+              "IoTPond12": 2.8781348844129084,
+              "IoTPond2": 0.476984170452275,
+              "IoTPond3": 0.2860431683397546,
+              "IoTPond4": 1.0299957324232947,
+              "IoTPond6": 0.9055654768384724,
+              "IoTPond7": 1.1897173024514704,
+              "IoTPond8": 0.5003538592150565,
+              "IoTPond9": 2.241783754480379,
+              "IoTpond1": 0.6670943831126364
+            }
+          },
+          "local_mean": {
+            "micro": 1.5159615942800533,
+            "macro": 1.2761065600362829,
+            "r2": -3.3969425943697296,
+            "per_pond": {
+              "IoTPond10": 2.182108533149222,
+              "IoTPond11": 0.8533896067223081,
+              "IoTPond12": 0.2500976589524493,
+              "IoTPond2": 1.3017610695985964,
+              "IoTPond3": 0.9137533928183161,
+              "IoTPond4": 1.4433809316508637,
+              "IoTPond6": 1.5214445931852594,
+              "IoTPond7": 0.7830765890303462,
+              "IoTPond8": 1.0734654565431074,
+              "IoTPond9": 2.406008539393568,
+              "IoTpond1": 1.3086857893550763
+            }
+          },
+          "local_ridge_common": {
+            "micro": 0.7686502826692562,
+            "macro": 0.9317363398912533,
+            "r2": -0.13039956108370432,
+            "per_pond": {
+              "IoTPond10": 2.402792961805183,
+              "IoTPond11": 1.5482239244608735,
+              "IoTPond12": 0.40837338733324835,
+              "IoTPond2": 0.7533300499310294,
+              "IoTPond3": 0.610242889165498,
+              "IoTPond4": 1.0867979593017745,
+              "IoTPond6": 1.1417652360973851,
+              "IoTPond7": 0.5248064391776524,
+              "IoTPond8": 0.424164530382114,
+              "IoTPond9": 0.6443186110627842,
+              "IoTpond1": 0.7042837500862421
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 0.693383451187548,
+            "macro": 0.8412073828771017,
+            "r2": 0.08014082981800752,
+            "per_pond": {
+              "IoTPond10": 2.402792961805183,
+              "IoTPond11": 1.5482239244608735,
+              "IoTPond12": 0.40837338733324835,
+              "IoTPond2": 0.2080108868098606,
+              "IoTPond3": 0.5818284646475175,
+              "IoTPond4": 0.7116161059177409,
+              "IoTPond6": 1.3891241200072733,
+              "IoTPond7": 0.7825499703074021,
+              "IoTPond8": 0.424164530382114,
+              "IoTPond9": 0.6443186110627842,
+              "IoTpond1": 0.15227824891412006
+            }
+          },
+          "central_ridge": {
+            "micro": 0.9674403018607717,
+            "macro": 1.085408892651076,
+            "r2": -0.7906996490680762,
+            "per_pond": {
+              "IoTPond10": 1.544411473974228,
+              "IoTPond11": 2.6074906904242257,
+              "IoTPond12": 1.527126790170866,
+              "IoTPond2": 0.3727218219100458,
+              "IoTPond3": 0.48737546600177567,
+              "IoTPond4": 1.1157463968114674,
+              "IoTPond6": 0.49795401927967503,
+              "IoTPond7": 1.021504354593088,
+              "IoTPond8": 0.582146512855309,
+              "IoTPond9": 1.6456011442810146,
+              "IoTpond1": 0.5374191488601419
+            }
+          },
+          "fedavg": {
+            "micro": 1.026802881670414,
+            "macro": 1.1481602967888096,
+            "r2": -1.0171981231414686,
+            "per_pond": {
+              "IoTPond10": 2.2495710654531558,
+              "IoTPond11": 2.7643520111496844,
+              "IoTPond12": 1.9384613959949935,
+              "IoTPond2": 0.26355690262274867,
+              "IoTPond3": 0.16979997019398674,
+              "IoTPond4": 1.0169374928468877,
+              "IoTPond6": 0.5817725837519951,
+              "IoTPond7": 0.9054077587885817,
+              "IoTPond8": 0.3554667009786447,
+              "IoTPond9": 1.9551254352462344,
+              "IoTpond1": 0.4293119476499936
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.0268028816704304,
+            "macro": 1.148160296788803,
+            "r2": -1.017198123141533,
+            "per_pond": {
+              "IoTPond10": 2.2495710654531584,
+              "IoTPond11": 2.7643520111496738,
+              "IoTPond12": 1.9384613959949586,
+              "IoTPond2": 0.2635569026227224,
+              "IoTPond3": 0.16979997019397564,
+              "IoTPond4": 1.0169374928468844,
+              "IoTPond6": 0.5817725837520095,
+              "IoTPond7": 0.9054077587885575,
+              "IoTPond8": 0.3554667009786376,
+              "IoTPond9": 1.9551254352462903,
+              "IoTpond1": 0.42931194764996355
+            }
+          },
+          "proximal_common": {
+            "micro": 0.7686502826692562,
+            "macro": 0.9317363398912533,
+            "r2": -0.13039956108370432,
+            "per_pond": {
+              "IoTPond10": 2.402792961805183,
+              "IoTPond11": 1.5482239244608735,
+              "IoTPond12": 0.40837338733324835,
+              "IoTPond2": 0.7533300499310294,
+              "IoTPond3": 0.610242889165498,
+              "IoTPond4": 1.0867979593017745,
+              "IoTPond6": 1.1417652360973851,
+              "IoTPond7": 0.5248064391776524,
+              "IoTPond8": 0.424164530382114,
+              "IoTPond9": 0.6443186110627842,
+              "IoTpond1": 0.7042837500862421
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.5110925533131674,
+            "macro": 0.7303546528126645,
+            "r2": 0.5002261778556889,
+            "per_pond": {
+              "IoTPond10": 2.402792961805183,
+              "IoTPond11": 1.5482239244608735,
+              "IoTPond12": 0.40837338733324835,
+              "IoTPond2": 0.2080108868098606,
+              "IoTPond3": 0.16979997019398674,
+              "IoTPond4": 0.7116161059177409,
+              "IoTPond6": 0.5817725837519951,
+              "IoTPond7": 0.7825499703074021,
+              "IoTPond8": 0.424164530382114,
+              "IoTPond9": 0.6443186110627842,
+              "IoTpond1": 0.15227824891412006
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.5110925533131684,
+            "macro": 0.7303546528126649,
+            "r2": 0.5002261778556871,
+            "per_pond": {
+              "IoTPond10": 2.402792961805183,
+              "IoTPond11": 1.5482239244608735,
+              "IoTPond12": 0.40837338733324835,
+              "IoTPond2": 0.2080108868098606,
+              "IoTPond3": 0.16979997019397564,
+              "IoTPond4": 0.7116161059177409,
+              "IoTPond6": 0.5817725837520095,
+              "IoTPond7": 0.7825499703074021,
+              "IoTPond8": 0.424164530382114,
+              "IoTPond9": 0.6443186110627842,
+              "IoTpond1": 0.15227824891412006
+            }
+          }
+        }
+      },
+      {
+        "seed": 4,
+        "global_config": {
+          "alpha": 0.01,
+          "lr": 0.1,
+          "epochs": 5,
+          "rounds": 20
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            1.0,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            0.1,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.2118141892407135,
+            "macro": 1.4409473622965079,
+            "r2": -1.809612746539825,
+            "per_pond": {
+              "IoTPond10": 2.8337836911822305,
+              "IoTPond11": 2.8963083674626806,
+              "IoTPond12": 2.8718809515481456,
+              "IoTPond2": 0.4708480800786906,
+              "IoTPond3": 0.27988328186679867,
+              "IoTPond4": 1.0238564919395736,
+              "IoTPond6": 0.8999040012626761,
+              "IoTPond7": 1.1834678997918677,
+              "IoTPond8": 0.4941099522528473,
+              "IoTPond9": 2.235535893176548,
+              "IoTpond1": 0.6608423746995286
+            }
+          },
+          "local_mean": {
+            "micro": 1.5068869255612922,
+            "macro": 1.2705868943142027,
+            "r2": -3.344459242721385,
+            "per_pond": {
+              "IoTPond10": 2.182108533149222,
+              "IoTPond11": 0.8533896067223081,
+              "IoTPond12": 0.2500976589524493,
+              "IoTPond2": 1.287002507878183,
+              "IoTPond3": 0.895523177261727,
+              "IoTPond4": 1.4668909721407373,
+              "IoTPond6": 1.5419573488357015,
+              "IoTPond7": 0.779714296362353,
+              "IoTPond8": 1.0513623156939105,
+              "IoTPond9": 2.384428614683334,
+              "IoTpond1": 1.283980805776303
+            }
+          },
+          "local_ridge_common": {
+            "micro": 0.7792446760848366,
+            "macro": 0.9372003500853658,
+            "r2": -0.16177515675306964,
+            "per_pond": {
+              "IoTPond10": 2.40274705122638,
+              "IoTPond11": 1.548241881322215,
+              "IoTPond12": 0.40834193277736475,
+              "IoTPond2": 0.7335753297751104,
+              "IoTPond3": 0.6046722014750023,
+              "IoTPond4": 1.0935986735799057,
+              "IoTPond6": 1.1982441493224045,
+              "IoTPond7": 0.515778682295382,
+              "IoTPond8": 0.41860246602208534,
+              "IoTPond9": 0.6697913399338599,
+              "IoTpond1": 0.715610143209315
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 0.7309165143411358,
+            "macro": 0.8653338016383554,
+            "r2": -0.022138970409499192,
+            "per_pond": {
+              "IoTPond10": 2.40274705122638,
+              "IoTPond11": 1.548241881322215,
+              "IoTPond12": 0.40834193277736475,
+              "IoTPond2": 0.21379615440972383,
+              "IoTPond3": 0.5809496210400735,
+              "IoTPond4": 0.9201150091113725,
+              "IoTPond6": 1.4181298473991892,
+              "IoTPond7": 0.7791847485422582,
+              "IoTPond8": 0.41860246602208534,
+              "IoTPond9": 0.6697913399338599,
+              "IoTpond1": 0.15877176623738654
+            }
+          },
+          "central_ridge": {
+            "micro": 0.9526539641980444,
+            "macro": 1.0826246233282586,
+            "r2": -0.7363799233903863,
+            "per_pond": {
+              "IoTPond10": 1.5671767219645956,
+              "IoTPond11": 2.6159215438916426,
+              "IoTPond12": 1.5253821086505417,
+              "IoTPond2": 0.365142990732451,
+              "IoTPond3": 0.4996608286020722,
+              "IoTPond4": 1.1171704263178064,
+              "IoTPond6": 0.5005597875960943,
+              "IoTPond7": 1.0115596795615593,
+              "IoTPond8": 0.5728414424707002,
+              "IoTPond9": 1.602203027444446,
+              "IoTpond1": 0.5312522993789355
+            }
+          },
+          "fedavg": {
+            "micro": 0.9065041277150824,
+            "macro": 1.143266390902277,
+            "r2": -0.572222364407057,
+            "per_pond": {
+              "IoTPond10": 2.3658817960717347,
+              "IoTPond11": 2.809092077450728,
+              "IoTPond12": 2.0535837672548904,
+              "IoTPond2": 0.25649929503366176,
+              "IoTPond3": 0.17159697294452342,
+              "IoTPond4": 1.0249986489675005,
+              "IoTPond6": 0.5317901715409769,
+              "IoTPond7": 0.9373056446519286,
+              "IoTPond8": 0.3725549429895133,
+              "IoTPond9": 1.616334796852371,
+              "IoTpond1": 0.43629218616722054
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 0.9065041277150884,
+            "macro": 1.1432663909022798,
+            "r2": -0.5722223644070774,
+            "per_pond": {
+              "IoTPond10": 2.365881796071788,
+              "IoTPond11": 2.8090920774507304,
+              "IoTPond12": 2.053583767254857,
+              "IoTPond2": 0.25649929503364977,
+              "IoTPond3": 0.17159697294454346,
+              "IoTPond4": 1.0249986489675065,
+              "IoTPond6": 0.5317901715409665,
+              "IoTPond7": 0.9373056446519205,
+              "IoTPond8": 0.3725549429895123,
+              "IoTPond9": 1.616334796852391,
+              "IoTpond1": 0.4362921861672117
+            }
+          },
+          "proximal_common": {
+            "micro": 0.7792446760848366,
+            "macro": 0.9372003500853658,
+            "r2": -0.16177515675306964,
+            "per_pond": {
+              "IoTPond10": 2.40274705122638,
+              "IoTPond11": 1.548241881322215,
+              "IoTPond12": 0.40834193277736475,
+              "IoTPond2": 0.7335753297751104,
+              "IoTPond3": 0.6046722014750023,
+              "IoTPond4": 1.0935986735799057,
+              "IoTPond6": 1.1982441493224045,
+              "IoTPond7": 0.515778682295382,
+              "IoTPond8": 0.41860246602208534,
+              "IoTPond9": 0.6697913399338599,
+              "IoTpond1": 0.715610143209315
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.5490139686878516,
+            "macro": 0.7475435903698315,
+            "r2": 0.4233116386252376,
+            "per_pond": {
+              "IoTPond10": 2.40274705122638,
+              "IoTPond11": 1.548241881322215,
+              "IoTPond12": 0.40834193277736475,
+              "IoTPond2": 0.21379615440972383,
+              "IoTPond3": 0.17159697294452342,
+              "IoTPond4": 0.9201150091113725,
+              "IoTPond6": 0.5317901715409769,
+              "IoTPond7": 0.7791847485422582,
+              "IoTPond8": 0.41860246602208534,
+              "IoTPond9": 0.6697913399338599,
+              "IoTpond1": 0.15877176623738654
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.5490139686878519,
+            "macro": 0.7475435903698323,
+            "r2": 0.423311638625237,
+            "per_pond": {
+              "IoTPond10": 2.40274705122638,
+              "IoTPond11": 1.548241881322215,
+              "IoTPond12": 0.40834193277736475,
+              "IoTPond2": 0.21379615440972383,
+              "IoTPond3": 0.17159697294454346,
+              "IoTPond4": 0.9201150091113725,
+              "IoTPond6": 0.5317901715409665,
+              "IoTPond7": 0.7791847485422582,
+              "IoTPond8": 0.41860246602208534,
+              "IoTPond9": 0.6697913399338599,
+              "IoTpond1": 0.15877176623738654
+            }
+          }
+        }
+      }
+    ]
+  },
+  "intervals": {
+    "mode": "intervals",
+    "selection": "macro",
+    "cap": 3000,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "min_inner_blocks": 5,
+    "cleaning": {
+      "IoTpond1": {
+        "raw_rows": 83126,
+        "clean_rows": 82966,
+        "blocks": 72,
+        "weight_runs": 72,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "102187a176eb642718632221cbb4cf880dd10fa4b6ca23c2e75bb560cfd4a8a6"
+      },
+      "IoTPond10": {
+        "raw_rows": 620,
+        "clean_rows": 581,
+        "blocks": 15,
+        "weight_runs": 15,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "66c1fb6c5c95654b5862e05e4126cc440b8dc772ec8658d6e466ab36068afd15"
+      },
+      "IoTPond11": {
+        "raw_rows": 3165,
+        "clean_rows": 2616,
+        "blocks": 9,
+        "weight_runs": 13,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "7ecc7d213e9aaa4bf95e6aec504b592d8d7901f01e50d2e44476967700f10c41"
+      },
+      "IoTPond12": {
+        "raw_rows": 3590,
+        "clean_rows": 3589,
+        "blocks": 9,
+        "weight_runs": 10,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "f7bf7bcf03e7bb5d4c81cfc2890be5b0b358b894664b9fab762229df7e3ba163"
+      },
+      "IoTPond2": {
+        "raw_rows": 172249,
+        "clean_rows": 95945,
+        "blocks": 81,
+        "weight_runs": 81,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "be6b8d9113d2c32d82a6fe8fa51538bcd1085a1034681e8b7f2d67275436eb63"
+      },
+      "IoTPond3": {
+        "raw_rows": 169185,
+        "clean_rows": 160698,
+        "blocks": 75,
+        "weight_runs": 75,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "a1980e80250bfd610274acb3e281ebf93ba2b1e5449c61982bf97d262f8c01be"
+      },
+      "IoTPond4": {
+        "raw_rows": 89844,
+        "clean_rows": 89137,
+        "blocks": 67,
+        "weight_runs": 67,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "ff3822f2e28b191e126d9b92fc6ea6a7be36b1fc5924ac97af1a83f7ec598634"
+      },
+      "IoTPond6": {
+        "raw_rows": 91050,
+        "clean_rows": 80667,
+        "blocks": 81,
+        "weight_runs": 81,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "5da60c205dc569f147ec9f20b285c869884171741316a3b9af052850b68193ed"
+      },
+      "IoTPond7": {
+        "raw_rows": 279612,
+        "clean_rows": 64626,
+        "blocks": 54,
+        "weight_runs": 54,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "2843c355ea53f5ecfb022279fd4689552d9576bbcff7553dbb8652757bb9f1e3"
+      },
+      "IoTPond8": {
+        "raw_rows": 70744,
+        "clean_rows": 41413,
+        "blocks": 37,
+        "weight_runs": 38,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "1260a962f979876a1d451a55208bcd9e7fef077e3d13ccfee98863f6afb128a7"
+      },
+      "IoTPond9": {
+        "raw_rows": 151785,
+        "clean_rows": 150406,
+        "blocks": 99,
+        "weight_runs": 99,
+        "missing_nitrate": 0,
+        "included": true,
+        "sha256": "9e3aea85c8f2b68504548e3ef273a8cb032a2817118d82da4a6b5758e615bf54"
+      }
+    },
+    "counts": {
+      "IoTPond10": {
+        "inner_train_blocks": 10,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 10,
+        "inner_val_runs": 1,
+        "outer_train_runs": 11,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-10-06 12:51:44",
+        "inner_val_start": "2021-10-10 00:00:00",
+        "inner_val_end": "2021-10-10 00:00:00",
+        "outer_val_start": "2021-10-24 00:00:00"
+      },
+      "IoTPond11": {
+        "inner_train_blocks": 4,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 5,
+        "inner_val_runs": 2,
+        "outer_train_runs": 7,
+        "outer_val_runs": 2,
+        "inner_train_end": "2021-10-24 00:00:00",
+        "inner_val_start": "2021-10-25 00:00:00",
+        "inner_val_end": "2021-11-07 00:00:00",
+        "outer_val_start": "2021-11-08 00:00:00"
+      },
+      "IoTPond12": {
+        "inner_train_blocks": 6,
+        "inner_val_blocks": 1,
+        "inner_train_runs": 6,
+        "inner_val_runs": 2,
+        "outer_train_runs": 8,
+        "outer_val_runs": 1,
+        "inner_train_end": "2021-12-05 00:00:00",
+        "inner_val_start": "2021-12-19 00:00:00",
+        "inner_val_end": "2021-12-19 00:00:00",
+        "outer_val_start": "2022-01-02 00:00:00"
+      },
+      "IoTPond2": {
+        "inner_train_blocks": 22,
+        "inner_val_blocks": 18,
+        "inner_train_runs": 22,
+        "inner_val_runs": 18,
+        "outer_train_runs": 40,
+        "outer_val_runs": 11,
+        "inner_train_end": "2021-07-12 23:59:00",
+        "inner_val_start": "2021-07-13 00:00:18",
+        "inner_val_end": "2021-07-30 23:59:12",
+        "outer_val_start": "2021-07-31 00:00:46"
+      },
+      "IoTPond3": {
+        "inner_train_blocks": 26,
+        "inner_val_blocks": 12,
+        "inner_train_runs": 26,
+        "inner_val_runs": 12,
+        "outer_train_runs": 38,
+        "outer_val_runs": 13,
+        "inner_train_end": "2021-07-17 23:59:46",
+        "inner_val_start": "2021-07-18 00:00:06",
+        "inner_val_end": "2021-07-29 23:59:58",
+        "outer_val_start": "2021-07-30 00:00:17"
+      },
+      "IoTPond4": {
+        "inner_train_blocks": 30,
+        "inner_val_blocks": 5,
+        "inner_train_runs": 30,
+        "inner_val_runs": 5,
+        "outer_train_runs": 35,
+        "outer_val_runs": 10,
+        "inner_train_end": "2021-07-23 23:59:28",
+        "inner_val_start": "2021-07-24 00:00:24",
+        "inner_val_end": "2021-07-28 17:42:45",
+        "outer_val_start": "2021-07-30 09:48:21"
+      },
+      "IoTPond6": {
+        "inner_train_blocks": 22,
+        "inner_val_blocks": 9,
+        "inner_train_runs": 22,
+        "inner_val_runs": 9,
+        "outer_train_runs": 31,
+        "outer_val_runs": 25,
+        "inner_train_end": "2021-07-13 23:59:55",
+        "inner_val_start": "2021-07-14 00:00:34",
+        "inner_val_end": "2021-07-22 23:59:31",
+        "outer_val_start": "2021-07-23 00:01:05"
+      },
+      "IoTPond7": {
+        "inner_train_blocks": 35,
+        "inner_val_blocks": 6,
+        "inner_train_runs": 35,
+        "inner_val_runs": 6,
+        "outer_train_runs": 41,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-08-02 23:59:42",
+        "inner_val_start": "2021-08-03 00:00:02",
+        "inner_val_end": "2021-08-08 16:20:56",
+        "outer_val_start": "2021-08-09 11:07:02"
+      },
+      "IoTPond8": {
+        "inner_train_blocks": 19,
+        "inner_val_blocks": 2,
+        "inner_train_runs": 20,
+        "inner_val_runs": 2,
+        "outer_train_runs": 22,
+        "outer_val_runs": 3,
+        "inner_train_end": "2021-07-25 00:00:00",
+        "inner_val_start": "2021-07-26 00:00:00",
+        "inner_val_end": "2021-07-27 00:00:00",
+        "outer_val_start": "2021-07-28 00:00:00"
+      },
+      "IoTPond9": {
+        "inner_train_blocks": 32,
+        "inner_val_blocks": 40,
+        "inner_train_runs": 32,
+        "inner_val_runs": 40,
+        "outer_train_runs": 72,
+        "outer_val_runs": 13,
+        "inner_train_end": "2021-07-22 23:59:52",
+        "inner_val_start": "2021-07-23 00:00:12",
+        "inner_val_end": "2021-09-16 23:59:50",
+        "outer_val_start": "2021-09-17 00:00:10"
+      },
+      "IoTpond1": {
+        "inner_train_blocks": 20,
+        "inner_val_blocks": 14,
+        "inner_train_runs": 20,
+        "inner_val_runs": 14,
+        "outer_train_runs": 34,
+        "outer_val_runs": 9,
+        "inner_train_end": "2021-07-17 23:58:19",
+        "inner_val_start": "2021-07-18 00:03:04",
+        "inner_val_end": "2021-07-31 23:59:47",
+        "outer_val_start": "2021-08-01 00:00:06"
+      }
+    },
+    "runs": [
+      {
+        "seed": 0,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 1,
+          "rounds": 80
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            10.0,
+            10.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.1,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            1.0,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.4193350851367816,
+            "macro": 1.5658538576950043,
+            "r2": -2.6013593537003192,
+            "per_pond": {
+              "IoTPond10": 2.8149317078399525,
+              "IoTPond11": 2.7163306228012463,
+              "IoTPond12": 3.0486762169486283,
+              "IoTPond2": 0.6340866619481514,
+              "IoTPond3": 0.448920676090474,
+              "IoTPond4": 1.177702040243671,
+              "IoTPond6": 1.0951154359581654,
+              "IoTPond7": 1.3742218382012588,
+              "IoTPond8": 0.6711646576833709,
+              "IoTPond9": 2.4070925352494235,
+              "IoTpond1": 0.8361500416807056
+            }
+          },
+          "local_mean": {
+            "micro": 1.4159258498772236,
+            "macro": 1.317707849422132,
+            "r2": -2.5840792403332946,
+            "per_pond": {
+              "IoTPond10": 2.345673372726478,
+              "IoTPond11": 1.1225076317992475,
+              "IoTPond12": 0.5982722715250635,
+              "IoTPond2": 1.0780167054939627,
+              "IoTPond3": 0.9158542326120632,
+              "IoTPond4": 1.405618138670802,
+              "IoTPond6": 1.5263991771658934,
+              "IoTPond7": 1.2901372932814592,
+              "IoTPond8": 1.2960494750290306,
+              "IoTPond9": 1.8709860046092486,
+              "IoTpond1": 1.0452720407302045
+            }
+          },
+          "local_ridge_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 1.0484469782108738,
+            "macro": 1.00162229053399,
+            "r2": -0.9651220397628886,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.42285706738364814,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.2162565375997176,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "central_ridge": {
+            "micro": 1.1223690661833263,
+            "macro": 1.4204128451437326,
+            "r2": -1.2519977842138483,
+            "per_pond": {
+              "IoTPond10": 2.380612542945065,
+              "IoTPond11": 2.8880302167592085,
+              "IoTPond12": 2.557051453499163,
+              "IoTPond2": 0.7293026765673174,
+              "IoTPond3": 0.4891112586293963,
+              "IoTPond4": 1.4166245949362701,
+              "IoTPond6": 0.9445147472043228,
+              "IoTPond7": 1.5045895465186208,
+              "IoTPond8": 0.9992527597826386,
+              "IoTPond9": 0.7877474666876063,
+              "IoTpond1": 0.9277040330514492
+            }
+          },
+          "fedavg": {
+            "micro": 1.1346804777415676,
+            "macro": 1.460851386067224,
+            "r2": -1.3016736589964548,
+            "per_pond": {
+              "IoTPond10": 2.4492096112588295,
+              "IoTPond11": 3.104344751284158,
+              "IoTPond12": 2.6208827486612787,
+              "IoTPond2": 0.7457864840850047,
+              "IoTPond3": 0.31318242809851793,
+              "IoTPond4": 1.5661711050540281,
+              "IoTPond6": 0.8640335806020876,
+              "IoTPond7": 1.614911863614167,
+              "IoTPond8": 1.2693534102272108,
+              "IoTPond9": 0.5777966222045111,
+              "IoTpond1": 0.9436926416496725
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.1346804777415351,
+            "macro": 1.4608513860671926,
+            "r2": -1.301673658996323,
+            "per_pond": {
+              "IoTPond10": 2.4492096112587913,
+              "IoTPond11": 3.1043447512841755,
+              "IoTPond12": 2.6208827486612596,
+              "IoTPond2": 0.745786484085008,
+              "IoTPond3": 0.31318242809850994,
+              "IoTPond4": 1.5661711050540033,
+              "IoTPond6": 0.8640335806020253,
+              "IoTPond7": 1.6149118636141562,
+              "IoTPond8": 1.2693534102271768,
+              "IoTPond9": 0.5777966222043336,
+              "IoTpond1": 0.9436926416496779
+            }
+          },
+          "proximal_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.9984408572309201,
+            "macro": 0.980113016674974,
+            "r2": -0.7821377544670367,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.31318242809851793,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8640335806020876,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.348649602623998,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.9984408572308894,
+            "macro": 0.9801130166749598,
+            "r2": -0.782137754466927,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.31318242809850994,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8640335806020253,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.3486496026239136,
+              "IoTpond1": 0.2377046382660657
+            }
+          }
+        }
+      },
+      {
+        "seed": 1,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.05,
+          "epochs": 1,
+          "rounds": 80
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            10.0,
+            10.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.1,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            1.0,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.4193350851367816,
+            "macro": 1.5658538576950043,
+            "r2": -2.6013593537003192,
+            "per_pond": {
+              "IoTPond10": 2.8149317078399525,
+              "IoTPond11": 2.7163306228012463,
+              "IoTPond12": 3.0486762169486283,
+              "IoTPond2": 0.6340866619481514,
+              "IoTPond3": 0.448920676090474,
+              "IoTPond4": 1.177702040243671,
+              "IoTPond6": 1.0951154359581654,
+              "IoTPond7": 1.3742218382012588,
+              "IoTPond8": 0.6711646576833709,
+              "IoTPond9": 2.4070925352494235,
+              "IoTpond1": 0.8361500416807056
+            }
+          },
+          "local_mean": {
+            "micro": 1.4159258498772236,
+            "macro": 1.317707849422132,
+            "r2": -2.5840792403332946,
+            "per_pond": {
+              "IoTPond10": 2.345673372726478,
+              "IoTPond11": 1.1225076317992475,
+              "IoTPond12": 0.5982722715250635,
+              "IoTPond2": 1.0780167054939627,
+              "IoTPond3": 0.9158542326120632,
+              "IoTPond4": 1.405618138670802,
+              "IoTPond6": 1.5263991771658934,
+              "IoTPond7": 1.2901372932814592,
+              "IoTPond8": 1.2960494750290306,
+              "IoTPond9": 1.8709860046092486,
+              "IoTpond1": 1.0452720407302045
+            }
+          },
+          "local_ridge_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 1.0484469782108738,
+            "macro": 1.00162229053399,
+            "r2": -0.9651220397628886,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.42285706738364814,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.2162565375997176,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "central_ridge": {
+            "micro": 1.1223690661833263,
+            "macro": 1.4204128451437326,
+            "r2": -1.2519977842138483,
+            "per_pond": {
+              "IoTPond10": 2.380612542945065,
+              "IoTPond11": 2.8880302167592085,
+              "IoTPond12": 2.557051453499163,
+              "IoTPond2": 0.7293026765673174,
+              "IoTPond3": 0.4891112586293963,
+              "IoTPond4": 1.4166245949362701,
+              "IoTPond6": 0.9445147472043228,
+              "IoTPond7": 1.5045895465186208,
+              "IoTPond8": 0.9992527597826386,
+              "IoTPond9": 0.7877474666876063,
+              "IoTpond1": 0.9277040330514492
+            }
+          },
+          "fedavg": {
+            "micro": 1.1897446228624236,
+            "macro": 1.5154559926834026,
+            "r2": -1.530486840391875,
+            "per_pond": {
+              "IoTPond10": 2.5884794888633786,
+              "IoTPond11": 3.100530649852839,
+              "IoTPond12": 2.668435154349698,
+              "IoTPond2": 0.7916021486068913,
+              "IoTPond3": 0.3347184568222184,
+              "IoTPond4": 1.6025133568422398,
+              "IoTPond6": 0.9498226823631354,
+              "IoTPond7": 1.637482223989022,
+              "IoTPond8": 1.2827145249695922,
+              "IoTPond9": 0.7226693192395076,
+              "IoTpond1": 0.9910479136189055
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.189744622862429,
+            "macro": 1.5154559926834246,
+            "r2": -1.530486840391899,
+            "per_pond": {
+              "IoTPond10": 2.588479488863535,
+              "IoTPond11": 3.100530649852902,
+              "IoTPond12": 2.668435154349802,
+              "IoTPond2": 0.791602148606909,
+              "IoTPond3": 0.33471845682219437,
+              "IoTPond4": 1.6025133568422256,
+              "IoTPond6": 0.9498226823630913,
+              "IoTPond7": 1.6374822239890265,
+              "IoTPond8": 1.2827145249695608,
+              "IoTPond9": 0.7226693192394927,
+              "IoTpond1": 0.991047913618929
+            }
+          },
+          "proximal_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 1.0334504305641503,
+            "macro": 0.9962969417342787,
+            "r2": -0.9093075192528657,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.3347184568222184,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.9498226823631354,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.419347647791603,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 1.0334504305641388,
+            "macro": 0.9962969417342726,
+            "r2": -0.909307519252823,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.33471845682219437,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.9498226823630913,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.4193476477916054,
+              "IoTpond1": 0.2377046382660657
+            }
+          }
+        }
+      },
+      {
+        "seed": 2,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 1,
+          "rounds": 80
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            100.0,
+            100.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.1,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            1.0,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.4193350851367816,
+            "macro": 1.5658538576950043,
+            "r2": -2.6013593537003192,
+            "per_pond": {
+              "IoTPond10": 2.8149317078399525,
+              "IoTPond11": 2.7163306228012463,
+              "IoTPond12": 3.0486762169486283,
+              "IoTPond2": 0.6340866619481514,
+              "IoTPond3": 0.448920676090474,
+              "IoTPond4": 1.177702040243671,
+              "IoTPond6": 1.0951154359581654,
+              "IoTPond7": 1.3742218382012588,
+              "IoTPond8": 0.6711646576833709,
+              "IoTPond9": 2.4070925352494235,
+              "IoTpond1": 0.8361500416807056
+            }
+          },
+          "local_mean": {
+            "micro": 1.4159258498772236,
+            "macro": 1.317707849422132,
+            "r2": -2.5840792403332946,
+            "per_pond": {
+              "IoTPond10": 2.345673372726478,
+              "IoTPond11": 1.1225076317992475,
+              "IoTPond12": 0.5982722715250635,
+              "IoTPond2": 1.0780167054939627,
+              "IoTPond3": 0.9158542326120632,
+              "IoTPond4": 1.405618138670802,
+              "IoTPond6": 1.5263991771658934,
+              "IoTPond7": 1.2901372932814592,
+              "IoTPond8": 1.2960494750290306,
+              "IoTPond9": 1.8709860046092486,
+              "IoTpond1": 1.0452720407302045
+            }
+          },
+          "local_ridge_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 1.0484469782108738,
+            "macro": 1.00162229053399,
+            "r2": -0.9651220397628886,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.42285706738364814,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.2162565375997176,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "central_ridge": {
+            "micro": 1.1223690661833263,
+            "macro": 1.4204128451437326,
+            "r2": -1.2519977842138483,
+            "per_pond": {
+              "IoTPond10": 2.380612542945065,
+              "IoTPond11": 2.8880302167592085,
+              "IoTPond12": 2.557051453499163,
+              "IoTPond2": 0.7293026765673174,
+              "IoTPond3": 0.4891112586293963,
+              "IoTPond4": 1.4166245949362701,
+              "IoTPond6": 0.9445147472043228,
+              "IoTPond7": 1.5045895465186208,
+              "IoTPond8": 0.9992527597826386,
+              "IoTPond9": 0.7877474666876063,
+              "IoTpond1": 0.9277040330514492
+            }
+          },
+          "fedavg": {
+            "micro": 1.1659306429696052,
+            "macro": 1.4971223231623787,
+            "r2": -1.4301999913153982,
+            "per_pond": {
+              "IoTPond10": 2.4772679237079114,
+              "IoTPond11": 3.1150138546095243,
+              "IoTPond12": 2.694147428989399,
+              "IoTPond2": 0.7890086387917387,
+              "IoTPond3": 0.30832979424276075,
+              "IoTPond4": 1.5817999122392699,
+              "IoTPond6": 0.9016610680046986,
+              "IoTPond7": 1.647175858675866,
+              "IoTPond8": 1.2837876079445558,
+              "IoTPond9": 0.6815623534463293,
+              "IoTpond1": 0.9885911141341117
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.165930642969609,
+            "macro": 1.4971223231624047,
+            "r2": -1.4301999913154138,
+            "per_pond": {
+              "IoTPond10": 2.477267923708074,
+              "IoTPond11": 3.1150138546096047,
+              "IoTPond12": 2.6941474289895093,
+              "IoTPond2": 0.78900863879172,
+              "IoTPond3": 0.3083297942427312,
+              "IoTPond4": 1.5817999122392568,
+              "IoTPond6": 0.9016610680046292,
+              "IoTPond7": 1.6471758586758825,
+              "IoTPond8": 1.2837876079445711,
+              "IoTPond9": 0.6815623534463813,
+              "IoTpond1": 0.9885911141340941
+            }
+          },
+          "proximal_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 1.0408724228477542,
+            "macro": 0.9987516626652764,
+            "r2": -0.9368303711048434,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.30832979424276075,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.9016610680046986,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.520899854970471,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 1.0408724228477455,
+            "macro": 0.9987516626652713,
+            "r2": -0.9368303711048109,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.3083297942427312,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.9016610680046292,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.5208998549705133,
+              "IoTpond1": 0.2377046382660657
+            }
+          }
+        }
+      },
+      {
+        "seed": 3,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 1,
+          "rounds": 80
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            10.0,
+            10.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.1,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            1.0,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.4193350851367816,
+            "macro": 1.5658538576950043,
+            "r2": -2.6013593537003192,
+            "per_pond": {
+              "IoTPond10": 2.8149317078399525,
+              "IoTPond11": 2.7163306228012463,
+              "IoTPond12": 3.0486762169486283,
+              "IoTPond2": 0.6340866619481514,
+              "IoTPond3": 0.448920676090474,
+              "IoTPond4": 1.177702040243671,
+              "IoTPond6": 1.0951154359581654,
+              "IoTPond7": 1.3742218382012588,
+              "IoTPond8": 0.6711646576833709,
+              "IoTPond9": 2.4070925352494235,
+              "IoTpond1": 0.8361500416807056
+            }
+          },
+          "local_mean": {
+            "micro": 1.4159258498772236,
+            "macro": 1.317707849422132,
+            "r2": -2.5840792403332946,
+            "per_pond": {
+              "IoTPond10": 2.345673372726478,
+              "IoTPond11": 1.1225076317992475,
+              "IoTPond12": 0.5982722715250635,
+              "IoTPond2": 1.0780167054939627,
+              "IoTPond3": 0.9158542326120632,
+              "IoTPond4": 1.405618138670802,
+              "IoTPond6": 1.5263991771658934,
+              "IoTPond7": 1.2901372932814592,
+              "IoTPond8": 1.2960494750290306,
+              "IoTPond9": 1.8709860046092486,
+              "IoTpond1": 1.0452720407302045
+            }
+          },
+          "local_ridge_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 1.0484469782108738,
+            "macro": 1.00162229053399,
+            "r2": -0.9651220397628886,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.42285706738364814,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.2162565375997176,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "central_ridge": {
+            "micro": 1.1223690661833263,
+            "macro": 1.4204128451437326,
+            "r2": -1.2519977842138483,
+            "per_pond": {
+              "IoTPond10": 2.380612542945065,
+              "IoTPond11": 2.8880302167592085,
+              "IoTPond12": 2.557051453499163,
+              "IoTPond2": 0.7293026765673174,
+              "IoTPond3": 0.4891112586293963,
+              "IoTPond4": 1.4166245949362701,
+              "IoTPond6": 0.9445147472043228,
+              "IoTPond7": 1.5045895465186208,
+              "IoTPond8": 0.9992527597826386,
+              "IoTPond9": 0.7877474666876063,
+              "IoTpond1": 0.9277040330514492
+            }
+          },
+          "fedavg": {
+            "micro": 1.1297156905928063,
+            "macro": 1.4648659075443264,
+            "r2": -1.2815758077612056,
+            "per_pond": {
+              "IoTPond10": 2.468907405199212,
+              "IoTPond11": 3.1142739485079094,
+              "IoTPond12": 2.683121323834204,
+              "IoTPond2": 0.7545638923464342,
+              "IoTPond3": 0.3273595195104773,
+              "IoTPond4": 1.530809807722838,
+              "IoTPond6": 0.8352475670969817,
+              "IoTPond7": 1.6149939194827838,
+              "IoTPond8": 1.2252030127980114,
+              "IoTPond9": 0.6050973496837001,
+              "IoTpond1": 0.9539472368050403
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.1297156905927963,
+            "macro": 1.464865907544313,
+            "r2": -1.2815758077611656,
+            "per_pond": {
+              "IoTPond10": 2.4689074051992366,
+              "IoTPond11": 3.114273948507867,
+              "IoTPond12": 2.6831213238341016,
+              "IoTPond2": 0.7545638923464053,
+              "IoTPond3": 0.32735951951056225,
+              "IoTPond4": 1.530809807722828,
+              "IoTPond6": 0.8352475670969826,
+              "IoTPond7": 1.614993919482781,
+              "IoTPond8": 1.22520301279802,
+              "IoTPond9": 0.6050973496836526,
+              "IoTpond1": 0.9539472368050053
+            }
+          },
+          "proximal_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.9961820248664607,
+            "macro": 0.9805502820883447,
+            "r2": -0.7740832026384701,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.3273595195104773,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8352475670969817,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.3680684442642226,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.9961820248664615,
+            "macro": 0.9805502820883508,
+            "r2": -0.774083202638473,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.32735951951056225,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8352475670969826,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.3680684442642053,
+              "IoTpond1": 0.2377046382660657
+            }
+          }
+        }
+      },
+      {
+        "seed": 4,
+        "global_config": {
+          "alpha": 0.0001,
+          "lr": 0.1,
+          "epochs": 1,
+          "rounds": 40
+        },
+        "central_alpha": 0.1,
+        "proximal_common": [
+          0.1,
+          0.0
+        ],
+        "proximal_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.0001,
+            null
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.0001,
+            null
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            10.0,
+            10.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "local_common": [
+          0.1,
+          0.0
+        ],
+        "local_adaptive": {
+          "IoTPond10": [
+            0.1,
+            0.0
+          ],
+          "IoTPond11": [
+            0.1,
+            0.0
+          ],
+          "IoTPond12": [
+            0.1,
+            0.0
+          ],
+          "IoTPond2": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond3": [
+            0.001,
+            0.0
+          ],
+          "IoTPond4": [
+            0.0001,
+            0.0
+          ],
+          "IoTPond6": [
+            0.1,
+            0.0
+          ],
+          "IoTPond7": [
+            100.0,
+            0.0
+          ],
+          "IoTPond8": [
+            0.1,
+            0.0
+          ],
+          "IoTPond9": [
+            1.0,
+            0.0
+          ],
+          "IoTpond1": [
+            0.0001,
+            0.0
+          ]
+        },
+        "eligible_local_selection": [
+          "IoTPond2",
+          "IoTPond3",
+          "IoTPond4",
+          "IoTPond6",
+          "IoTPond7",
+          "IoTPond9",
+          "IoTpond1"
+        ],
+        "outer_validation": {
+          "global_mean": {
+            "micro": 1.4193350851367816,
+            "macro": 1.5658538576950043,
+            "r2": -2.6013593537003192,
+            "per_pond": {
+              "IoTPond10": 2.8149317078399525,
+              "IoTPond11": 2.7163306228012463,
+              "IoTPond12": 3.0486762169486283,
+              "IoTPond2": 0.6340866619481514,
+              "IoTPond3": 0.448920676090474,
+              "IoTPond4": 1.177702040243671,
+              "IoTPond6": 1.0951154359581654,
+              "IoTPond7": 1.3742218382012588,
+              "IoTPond8": 0.6711646576833709,
+              "IoTPond9": 2.4070925352494235,
+              "IoTpond1": 0.8361500416807056
+            }
+          },
+          "local_mean": {
+            "micro": 1.4159258498772236,
+            "macro": 1.317707849422132,
+            "r2": -2.5840792403332946,
+            "per_pond": {
+              "IoTPond10": 2.345673372726478,
+              "IoTPond11": 1.1225076317992475,
+              "IoTPond12": 0.5982722715250635,
+              "IoTPond2": 1.0780167054939627,
+              "IoTPond3": 0.9158542326120632,
+              "IoTPond4": 1.405618138670802,
+              "IoTPond6": 1.5263991771658934,
+              "IoTPond7": 1.2901372932814592,
+              "IoTPond8": 1.2960494750290306,
+              "IoTPond9": 1.8709860046092486,
+              "IoTpond1": 1.0452720407302045
+            }
+          },
+          "local_ridge_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "local_ridge_adaptive": {
+            "micro": 1.0484469782108738,
+            "macro": 1.00162229053399,
+            "r2": -0.9651220397628886,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.42285706738364814,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.2162565375997176,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "central_ridge": {
+            "micro": 1.1223690661833263,
+            "macro": 1.4204128451437326,
+            "r2": -1.2519977842138483,
+            "per_pond": {
+              "IoTPond10": 2.380612542945065,
+              "IoTPond11": 2.8880302167592085,
+              "IoTPond12": 2.557051453499163,
+              "IoTPond2": 0.7293026765673174,
+              "IoTPond3": 0.4891112586293963,
+              "IoTPond4": 1.4166245949362701,
+              "IoTPond6": 0.9445147472043228,
+              "IoTPond7": 1.5045895465186208,
+              "IoTPond8": 0.9992527597826386,
+              "IoTPond9": 0.7877474666876063,
+              "IoTpond1": 0.9277040330514492
+            }
+          },
+          "fedavg": {
+            "micro": 1.1224474663317359,
+            "macro": 1.4471672291464837,
+            "r2": -1.252312410003674,
+            "per_pond": {
+              "IoTPond10": 2.669389911735739,
+              "IoTPond11": 3.137936055816877,
+              "IoTPond12": 2.5881277908037936,
+              "IoTPond2": 0.6919416822879315,
+              "IoTPond3": 0.3456218386512517,
+              "IoTPond4": 1.5482860171129549,
+              "IoTPond6": 0.8241495386936651,
+              "IoTPond7": 1.5437520095862198,
+              "IoTPond8": 1.1941840146877014,
+              "IoTPond9": 0.482912913526558,
+              "IoTpond1": 0.8925377477086265
+            }
+          },
+          "secfed_gaussian": {
+            "micro": 1.122447466331753,
+            "macro": 1.447167229146503,
+            "r2": -1.2523124100037428,
+            "per_pond": {
+              "IoTPond10": 2.669389911735811,
+              "IoTPond11": 3.1379360558169416,
+              "IoTPond12": 2.588127790803883,
+              "IoTPond2": 0.691941682287946,
+              "IoTPond3": 0.3456218386512358,
+              "IoTPond4": 1.5482860171129713,
+              "IoTPond6": 0.8241495386936794,
+              "IoTPond7": 1.5437520095861874,
+              "IoTPond8": 1.1941840146876446,
+              "IoTPond9": 0.4829129135265827,
+              "IoTpond1": 0.8925377477086491
+            }
+          },
+          "proximal_common": {
+            "micro": 1.0924803066270456,
+            "macro": 1.0917996388691675,
+            "r2": -1.1336531233981297,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 1.1066816293606985,
+              "IoTPond3": 0.5775501306216105,
+              "IoTPond4": 0.9955729291141833,
+              "IoTPond6": 1.1233540187904163,
+              "IoTPond7": 1.0538298165626256,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.0658517719326135,
+              "IoTpond1": 1.0598213878662828
+            }
+          },
+          "proximal_adaptive": {
+            "micro": 0.9826944233758999,
+            "macro": 0.9754950161737761,
+            "r2": -0.7263687454849452,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.3456218386512517,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8241495386936651,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.3052962284665124,
+              "IoTpond1": 0.2377046382660657
+            }
+          },
+          "proximal_adaptive_secfed_gaussian": {
+            "micro": 0.9826944233759052,
+            "macro": 0.9754950161737774,
+            "r2": -0.7263687454849641,
+            "per_pond": {
+              "IoTPond10": 2.444621367384167,
+              "IoTPond11": 1.3470826174290214,
+              "IoTPond12": 0.4746978584351105,
+              "IoTPond2": 0.3248655292593406,
+              "IoTPond3": 0.3456218386512358,
+              "IoTPond4": 1.376703806046281,
+              "IoTPond6": 0.8241495386936794,
+              "IoTPond7": 1.288969255216009,
+              "IoTPond8": 0.7607325000641135,
+              "IoTPond9": 1.3052962284665286,
+              "IoTpond1": 0.2377046382660657
+            }
+          }
+        }
+      }
+    ]
+  }
+}
